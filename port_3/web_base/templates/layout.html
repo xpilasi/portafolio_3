@@ -1,0 +1,69 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"/>
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="menu_inicio">
+        <div class="rrss">
+        <img src={%static 'img/facebook.png'%}/>
+        <img src={%static 'img/linkedin.png'%}/>
+        </div>
+        <ul>
+            <li><a href="#work">work</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </div>
+
+    <div class="presentacion" id="presentacion">
+        <div class="presentacion_grid">
+            <div class="caja_presentacion_1">
+                <h1 class="titulo_saludo">Hi. I'm Xavi.<br>A Django website developper.</h1>
+                {% comment %} <p>I'm also a design enthousiast, web</p> {% endcomment %}
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="work" id="work">
+        
+        
+        
+    </div>
+    
+    <div class="about" id="about">
+        <div class="about_grid">
+            <div class="caja_about_1">
+                <img class="img_perfil" src={%static 'img/perfil_2.png'%}/>
+                
+            </div>
+            <div class="caja_about">
+                <h1 class="titulos">
+                    working remotely for Help Scout 
+                    on their mobile products in sunny 
+                    Dublin, Ireland.    
+                </h1>
+                <p class="parrafo_1">I’ve spent the past 12+ years working across different 
+                    areas of digital design; front-end development, email design, marketing 
+                    site pages, app UI/UX, to my current role designing products for mobile 
+                    platforms.</p>
+                <p class="parrafo_1">These days my time is spent researching, designing, 
+                    prototyping, and coding. I also help designers get started with their 
+                    careers.</p>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact" id="contact"></div></div>
+    
+</body>
+</html>
